@@ -1,3 +1,5 @@
+Produced the code needed with two other developers to meet the requirements below to create a working command-line vending machine application
+
 ## Module 1 Capstone - Taste Elevator CaTEring Corp
 
 You've been asked to develop an application for a catering(food) distributor,
@@ -73,12 +75,7 @@ Taste Elevator CaTEring Corp. Customers purchased food items from the catering m
          >```
 9. Create as many of your classes as possible to be "testable" classes. **Limit console**
 **input and output to as few classes as possible**.
-10. Optional - Sales Report
-    - Provide a "Hidden" menu option on the main menu ("S") that writes to a sales
-    report that shows the total sales since the machine was started. The name of the
-    file must include the date and time so each sales report is uniquely named.
-    - An example of the output format is provided below.
-11. Provide unit tests demonstrating that your code works correctly.
+10. Provide unit tests demonstrating that your code works correctly.
 ___
 ### CaTEring Data File
 The input file that stocks the items is a comma separated values file (csv). Each line is a separate item in the file and follows the below format:
@@ -100,28 +97,3 @@ D1,CHOCOLATE BAR,3.75,Dessert
 ```
 
 An input file has been provided for testing with your repository: `catering.csv`.
-
----
-### Sales Report
-The output sales report file is a comma separated values (csv) file. Each line is a separate item with the number of sales for the applicable item. At the end of the report is a blank line followed by the **TOTAL SALES** dollar amount indicating the gross sales from the caTEring machine.
-
-**Example Output**
-
->```
->Nachos,10
->Popcorn,3
->Turkey Sandwich,0
->Mountain Melter,50
->7Down,23
->Chewy Bar,2
->Walking Tacos,1
->Gum,3
->Ginger Ayle,4
->Veggie Wrap,8
->Papsi,9
->Chocolate Bar,12
->Chippos,11
->Caramel Bar,6
->Burrito,4
->Preengles,2
->```
